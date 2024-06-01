@@ -4,8 +4,8 @@ import pickle
 from sklearn.preprocessing import StandardScaler
 
 # Load the model and scaler
-model_path = "C:\\Users\\14701\\Desktop\\WEBL\\gbm_model.pkl"
-scaler_path = "C:\\Users\\14701\\Desktop\\WEBL\\scaler.pkl"
+model_path = "gbm_model.pkl"
+scaler_path = "scaler.pkl"
 
 with open(model_path, 'rb') as model_file, open(scaler_path, 'rb') as scaler_file:
     model = pickle.load(model_file)
